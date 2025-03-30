@@ -1,25 +1,26 @@
-# NexusThink
 # NexusThink AI Assistant 🧠
 
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io/)
-[![LangChain](https://img.shields.io/badge/LangChain-00A67D?style=for-the-badge)](https://python.langchain.com/)
-[![Groq](https://img.shields.io/badge/Groq-00A67D?style=for-the-badge)](https://groq.com/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io/) 
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-A conversational AI assistant powered by Groq's ultra-fast LLMs, built with Streamlit and LangChain.
+> **Ultra-fast AI assistant powered by Groq's LPUs**  
+> Chat with Llama 3, Mixtral, or Gemma models in real-time with customizable parameters
 
-![App Screenshot](./assets/screenshot.png) <!-- Add your screenshot path -->
+## 🌟 Features
+- **Multiple LLMs**: llama3-8b/70b, mixtral-8x7b, gemma-7b
+- **Customizable**: Adjust temperature (0-1) and max tokens (50-4000)
+- **Persistent Chat**: Maintains conversation history during session
+- **Secure**: API keys encrypted in session state
+- **Responsive**: Works on desktop and mobile
 
-## Features ✨
+## 🚀 Quick Start
 
-- **Multiple LLM Models**: Choose between Llama 3, Mixtral, and Gemma
-- **Customizable Parameters**: Adjust temperature and max tokens
-- **Persistent Chat**: Conversation history maintained during session
-- **API Key Management**: Secure handling of Groq API keys
-- **Responsive Design**: Mobile-friendly interface
-
-## Installation ⚙️
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/nexusthink-ai.git
-   cd nexusthink-ai
+### 1. Installation
+```bash
+git clone https://github.com/yourusername/nexusthink-ai.git
+cd nexusthink-ai
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+pip install -r requirements.txt
