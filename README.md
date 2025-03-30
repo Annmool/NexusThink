@@ -24,3 +24,13 @@ python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
 pip install -r requirements.txt
+
+# Required
+GROQ_API_KEY=your_key_here_from_groq.com
+
+# Optional (for LangSmith)
+LANGCHAIN_API_KEY=your_key
+LANGCHAIN_TRACING_V2=true
+
+#Launch
+streamlit run app.py
